@@ -1,8 +1,5 @@
 package Shortener.strategies;
 
-/**
- * Created by ruslan on 21.07.16.
- */
 public class FileStorageStrategy implements StorageStrategy
 {
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
