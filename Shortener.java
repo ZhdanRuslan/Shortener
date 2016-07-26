@@ -2,9 +2,6 @@ package Shortener;
 
 import Shortener.strategies.StorageStrategy;
 
-/**
- * Created by Ruslan Zhdan on 14.07.2016.
- */
 public class Shortener
 {
 

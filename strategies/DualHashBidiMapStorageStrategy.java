@@ -2,9 +2,6 @@ package Shortener.strategies;
 
 import org.apache.commons.collections4.bidimap.DualHashBidiMap;
 
-/**
- * Created by ruslan on 25.07.16.
- */
 public class DualHashBidiMapStorageStrategy implements StorageStrategy
 {
     private DualHashBidiMap<Long, String> data = new DualHashBidiMap();
